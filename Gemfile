@@ -29,6 +29,12 @@ gem "bootsnap", require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin Ajax possible
 # gem "rack-cors"
 
+gem "rswag-api"
+gem "rswag-ui"
+gem "pagy" # For pagination
+gem "active_model_serializers" # For JSON serialization
+gem "redis-rails" # For caching
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
@@ -41,6 +47,9 @@ group :development, :test do
   gem "faker"
   gem "benchmark-ips"
   gem "ruby-prof"
+  gem "rspec-rails"
+  gem "rswag-specs"
+  gem "database_cleaner-active_record"
 end
 
 
