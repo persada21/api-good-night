@@ -127,6 +127,9 @@ This project adheres to clean code principles, leveraging:
 
 ---
 
+## Please take a look at NOTES.md
+
+---
 ## Contributing
 
 Feel free to fork the repository and submit pull requests to improve the project.
