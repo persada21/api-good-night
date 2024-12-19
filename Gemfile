@@ -51,5 +51,3 @@ group :development, :test do
   gem "rswag-specs"
   gem "database_cleaner-active_record"
 end
-
-
